@@ -3,29 +3,7 @@ package appdata;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
-class Bogie {
-    private String name;
-    private int capacity;
-
-    public Bogie(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    @Override
-    public String toString() {
-        return "Bogie: " + name + " | Capacity: " + capacity;
-    }
-}
+import appdata.UseCase7TrainConsistMgmnt;
 
 public class UseCase8TrainConsistMgmnt {
     
